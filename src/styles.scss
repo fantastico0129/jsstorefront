@@ -1,0 +1,75 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import 'styles-config';
+@import '@spartacus/styles/index';
+
+
+body {
+    --cx-color-primary: #00AAA6;
+    --cx-color-dark: #00AAA6;
+
+
+}
+
+// cx-page-layout header {
+//     height: 70px;
+// }
+
+header {
+    // height: 10px;
+}
+
+cx-searchbox {
+
+}
+
+cx-footer-navigation cx-navigation-ui {
+        height: 160px;
+}
+
+
+.cx-notice{
+    height: 0px;
+    padding: 3px;
+}
+
+cx-footer-navigation cx-navigation-ui>nav>ul>li {
+    margin: 1vw;
+}
+
+
+.cx-footer-navigation{
+    height: 50px !important;
+}
+
+.anonymous-consent-banner{
+    height: 80px;
+}
+
+.anonymous-consent-banner container row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        
+}
+
+cx-anonymous-consent-management-banner .anonymous-consent-banner {
+    padding: 1rem 0;
+}
+
+cx-anonymous-consent-management-banner .cx-banner-buttons {
+    margin-top: 0rem;
+}
+
+cx-anonymous-consent-management-banner .cx-banner-description {
+    line-height: 1;
+}
+
+cx-anonymous-consent-management-banner .cx-banner-title {
+    line-height: 0.222222;
+    margin-bottom: 0.5rem;
+}
+
+cx-navigation-ui .wrapper {
+    width: 300px;
+}
